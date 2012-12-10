@@ -1,0 +1,38 @@
+{
+  "name": "img64",
+  "description": "Replace image sources with base64 encoded data strings.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/elliotttf/img64",
+  "author": {
+    "name": "Elliott Foster",
+    "email": "elliottf@codebrews.com",
+    "url": "http://codebrews.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elliotttf/img64.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elliotttf/img64/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/elliotttf/img64/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/img64",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": [],
+  "dependencies": {
+    "jsdom": "~0.3.0"
+  }
+}
