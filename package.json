@@ -33,6 +33,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "jsdom": "~0.3.0"
+    "jsdom": "~0.3.0",
+    "request": "~2.12.0"
   }
 }
