@@ -33,6 +33,8 @@
   },
   "keywords": [],
   "dependencies": {
-    "jsdom": "~0.3.0"
+    "jsdom": "~0.3.0",
+    "underscore": "~1.4.3",
+    "mime": "~1.2.7"
   }
 }
