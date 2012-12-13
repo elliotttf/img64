@@ -60,9 +60,16 @@ exports['img64'] = {
   'local img': function(test) {
     test.expect(2);
     img64.encodeImgs(localImgTestString, { baseDir: __dirname }, function(err, doc) {
-      console.log(err);
       test.equal(err, null, 'Expected no errors.');
       test.equal(doc, localImgResultString, 'Expected document is equal.');
+      test.done();
+    });
+  },
+  'already encoded': function(test) {
+    test.expect(2);
+    img64.encodeImgs(resultString, function(err, doc) {
+      test.equal(err, null, 'Expected no errors.');
+      test.equal(doc, resultString, 'Expected document is equal.');
       test.done();
     });
   }
