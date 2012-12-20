@@ -16,7 +16,8 @@ img64.encodeImgs(string, function(err, string) {
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/cowboy/grunt).
 
 ## Release History
-* 0.2 - Code refactoring, and simple support for local files.
+* 0.2.1 - Use node-jquery rather than a remotely hosted version.
+* 0.2.0 - Code refactoring, and simple support for local files.
 
 ## License
 Copyright (c) 2012 Elliott Foster
