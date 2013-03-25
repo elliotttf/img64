@@ -39,6 +39,6 @@
     "jquery": "git://github.com/elliotttf/node-jquery.git",
     "request": "~2.12.0",
     "underscore": "~1.4.3",
-    "mime": "~1.2.7",
+    "mime": "~1.2.7"
   }
 }
