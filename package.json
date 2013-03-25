@@ -29,7 +29,9 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.3.15"
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-nodeunit": "~0.1.2"
   },
   "keywords": [],
   "dependencies": {
@@ -37,6 +39,6 @@
     "jquery": "git://github.com/elliotttf/node-jquery.git",
     "request": "~2.12.0",
     "underscore": "~1.4.3",
-    "mime": "~1.2.7"
+    "mime": "~1.2.7",
   }
 }
