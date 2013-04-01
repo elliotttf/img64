@@ -1,7 +1,7 @@
 {
   "name": "img64",
   "description": "Replace image sources with base64 encoded data strings.",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "homepage": "https://github.com/elliotttf/img64",
   "author": {
     "name": "Elliott Foster",
@@ -36,9 +36,8 @@
   "keywords": [],
   "dependencies": {
     "jsdom": "~0.3.0",
-    "jquery": "git://github.com/coolaj86/node-jquery.git",
     "request": "~2.12.0",
-    "underscore": "~1.4.3",
-    "mime": "~1.2.7"
+    "mime": "~1.2.7",
+    "node-promise": "~0.5.6"
   }
 }
