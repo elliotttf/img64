@@ -1,7 +1,7 @@
 {
   "name": "img64",
   "description": "Replace image sources with base64 encoded data strings.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "homepage": "https://github.com/elliotttf/img64",
   "author": {
     "name": "Elliott Foster",
@@ -29,15 +29,15 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.3.0",
-    "grunt-contrib-nodeunit": "~0.1.2"
+    "grunt": ">=0.4.5",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1"
   },
   "keywords": [],
   "dependencies": {
-    "jsdom": "~0.3.0",
-    "request": "~2.12.0",
-    "mime": "~1.2.7",
-    "node-promise": "~0.5.6"
+    "jsdom": "^3.1.1",
+    "mime": "^1.2.11",
+    "node-promise": "~0.5.6",
+    "request": "^2.12.0"
   }
 }
