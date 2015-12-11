@@ -35,7 +35,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "jsdom": "^3.1.1",
+    "jsdom": "^7.2.1",
     "mime": "^1.2.11",
     "node-promise": "~0.5.6",
     "request": "^2.12.0"
