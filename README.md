@@ -1,5 +1,7 @@
 # img64
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/elliotttf/img64.svg)](https://greenkeeper.io/)
+
 Replace image sources with base64 encoded data strings.
 
 ## Getting Started
